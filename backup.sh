@@ -9,3 +9,4 @@ tar -czf "$BACKUP_DIR/html_backup_$DATE.tar.gz" "$SOURCE_DIR"
 
 echo "[✓] Backup complete at $BACKUP_DIR/html_backup_$DATE.tar.gz"
 
+######## create cronjob for regular backup #############
